@@ -1,7 +1,7 @@
-def my_each(array)
+def my_each(argument)
   i = 0
-  while i < array.length
-    yield array[i]
+  while argument != argument.to_a
+    yield 
     puts element
     i += 1
   end
